@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="https://kit.fontawesome.com/74c46b4d09.js" crossorigin="anonymous"></script>
+<title>Hishaam's Portfolio</title>
+
+</head>
+
+<body>
+
+
+<section class="main">
+<div class="bg-vid">
+<video autoplay muted loop class="video">
+<source src="turtle.mp4"/>
+</video>
+</div>
+
+
+
+<header class="navbar">
+    <div class="left-section">
+        <div class="logo-container">
+            <a href="home.html">
+                <img src="img/hishaamlogo.png" alt="img11">
+            </a>
+        </div>
+        
+    </div>
+    <div class="right-section">
+        <ul id="sidemenu">
+            <li>
+                <a href="home.html" class="active">HOME</a>
+                <a href="about.html">ABOUT ME</a>
+                <a href="contact.html">PORTFOLIO</a>
+                <a href="drivers.html">SERVICES</a>
+                <a href="contact.html">CONTACT ME</a>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </div>
+</header> 
+
+
+
+<div class="body-text">
+  <p>Hishaam<span> Jagessur</span></p>
+  <br>
+  <h2>"Timeless Code, Endless Innovation."</h2><br><br>
+  <a href="contact.html">Contact Me</a>
+</div>
+
+<!-- --------------------FOOTER--------------------- -->
+
+
+<div class="footer1">
+    <div class="footer1-text">
+    <h4>Copyright© Made by Hishaam</h4>
+    </div>
+</div>
+
+</section>
+
+
+<!-- --------------------SCRIPTS--------------------- -->
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    function openmenu() {
+        document.getElementById("sidemenu").style.right = "0";
+        document.body.classList.add("hide-icons");
+    }
+
+    function closemenu() {
+        document.getElementById("sidemenu").style.right = "-200px";
+        document.body.classList.remove("hide-icons");
+    }
+</script>
+
+
+</body>
+</html>
+
+
+
+

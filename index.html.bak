@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<title>Ecolozik</title>
+
+</head>
+
+<body>
+
+
+<section class="main">
+<div class="bg-vid">
+<video autoplay muted loop class="video">
+<source src="turtle.mp4"/>
+</video>
+</div>
+
+<header class="navbar">
+    <div class="left-section">
+        <div class="logo-container">
+            <img src="img/11.jpg" alt="img11">
+        </div>
+        <a href="home.html"><h1>ECOLOZIK</h1></a>
+    </div>
+    <div class="right-section">
+        <ul>
+            <li>
+                <a href="home.html" class="active">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="register.html">REGISTER</a>
+                <a href="drivers.html">OUR TEAM</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+
+
+
+
+<div class="body-text">
+  <h1 style="font-size: 40px;">Welcome to<span> ECOLOZIK</span></h1>
+  <br>
+  <h2 style="font-size: 25px;">"Where science meets sustainability"</h2><br><br>
+  <a href="register.html">Join Us</a>
+</div>
+
+</section>
+<br>
+
+<section class="carimages">
+<div class="cartext">
+<h1>Ecolozik Photos</h1><br>
+</div>
+<div id="slider">
+    <figure>
+        <img src="img/21.jpg" alt="img21" style="width: 700px; height: 500px; margin-left: 420px;">
+        <img src="img/22.jpg" alt="img22" style="width: 400px; height: 500px; margin-left: 985px;">
+        <img src="img/44.jpg" alt="img44" style="width: 650px; height: 500px; margin-left: 980px;">
+        <img src="img/55.jpg" alt="img55" style="width: 400px; height: 500px; margin-left: 1010px;">
+			        
+    </figure>
+</div>
+
+<section class="carimages">
+<div class="cartext">
+<h1>Ecolozik Packaging</h1><br>
+</div>
+<div id="slider">
+    <figure>
+        <img src="img/111.jpg" alt="img111" style="width: 400px; height: 500px; margin-left: 585px;">
+	    <img src="img/77.png" alt="img77" style="width: 400px; height: 500px; margin-left: 1115px;">
+        <img src="img/88.jpg" alt="img88" style="width: 400px; height: 500px; margin-left: 1120px;">
+        <img src="img/99.jpg" alt="img99" style="width: 650px; height: 500px; margin-left: 1000px;">
+       				
+        
+    </figure>
+</div>
+
+
+
+<section class="footer-home">
+<div class="footerhome-text">
+<h4>About US<br>Please find us on our social media pages</h4>
+
+<div class="icons">
+
+
+
+
+<a href="https://www.instagram.com/ecolozik_" target="_blank"><img src="img/instagram.jpg" alt="instagram" width="40" height="40"></a>
+
+<a href="https://www.youtube.com/@EcolozikMRU" target="_blank"><img src="img/youtube.jpg" alt="youtube" width="40" height="40"></a>
+
+
+</div>
+</div>
+</section>
+
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hishaam's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/74c46b4d09.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="bg-vid">
+        <video autoplay muted loop class="video">
+            <source src="turtle.mp4"/>
+        </video>
+    </div>
+
+    <section id="header">
+        <div class="container">
+            <nav class="nav-header">
+                <a href="index.html">
+                    <img src="img/hishaamlogo.png" class="logo">
+                </a>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="drivers.html">Services</a></li>
+                    <li><a href="register.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>      
+
+
+
+                 <div class="about-text">
+                    <p>About <span> Me</span></p>
+                 </div>
+
+
+                 <div class="container-about">
+                    <div class="left">
+                      <img src="img/work-1.png" alt="Image">
+                    </div>
+                    <div class="right">
+                      <h1>With a background in both mechanical engineering and computing, my analytical and problem-solving skills have been shaped by a diverse academic journey.<br> Holding a Diploma in Computing and a Bachelor's in Mechanical Engineering, I have developed a strong interest in the intersection of technology and engineering.<br>The transition into the IT field has been driven by a passion for problem-solving and innovation. With experience in web development and automation, I focus on building efficient, user-friendly solutions while continuously exploring emerging technologies. <br>Outside of coding, I'm an outdoor enthusiast who enjoys hiking, exploring new places, and staying active through various outdoor activities.</h1>
+                    </div>
+                  </div>
+
+                <div class="button-about">
+                    <a href="img/my-cv.pdf" download>Download My CV</a>
+                </div>
+        </div>
+    </section>  
+
+    <section id="footer">
+        <div class="copyright">
+            <p>Copyright© Made by Hishaam</p>
+        </div>
+    </section>
+
+    <!-- --------------------SCRIPT--------------------- -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+        let currentSlide = 0;
+        const slides = document.querySelectorAll(".slide");
+        const slider = document.querySelector(".slider");
+        const dots = document.querySelectorAll(".dot");
+
+        function showSlide(index) {
+            slider.style.transform = `translateX(-${index * 100}%)`;
+            dots.forEach(dot => dot.classList.remove("active"));
+            dots[index].classList.add("active");
+            currentSlide = index;
+        }
+
+        function moveToSlide(index) {
+            showSlide(index);
+        }
+
+        function autoSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        setInterval(autoSlide, 3000);
+    </script>
+
+</body>
+</html>

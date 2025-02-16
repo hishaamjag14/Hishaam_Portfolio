@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<title>Ecolozik</title>
+
+</head>
+
+<body>
+
+
+<section class="main">
+<div class="bg-vid">
+<video autoplay muted loop class="video">
+<source src="turtle.mp4"/>
+</video>
+</div>
+
+<header class="navbar">
+    <div class="left-section">
+        <div class="logo-container">
+            <img src="img/11.jpg" alt="img11">
+        </div>
+        <a href="home.html"><h1>ECOLOZIK</h1></a>
+    </div>
+    <div class="right-section">
+        <ul>
+            <li>
+                <a href="home.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="register.html" class="active"">REGISTER</a>
+                <a href="drivers.html">OUR TEAM</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+
+<section class="register">
+<div class="wrapper1">
+<div class="title">Registration Form</div><br>
+
+<div class="form">
+<div class="inputfield">
+<label>First Name:</label>
+<input type="text" class="input">
+</div>  
+<div class="inputfield">
+<label>Last Name:</label>
+<input type="text" class="input">
+</div>  
+<div class="inputfield">
+<label>Password:</label>
+<input type="password" class="input">
+</div>  
+<div class="inputfield">
+ <label>Confirm Password:</label>
+<input type="password" class="input">
+</div> 
+<div class="inputfield">
+<label>Gender:</label>
+<div class="custom_select">
+<select>
+<option value="">Select</option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select>
+</div>
+</div> 
+ <div class="inputfield">
+<label>Email Address:</label>
+<input type="text" class="input">
+</div> 
+<div class="inputfield">
+<label>Phone Number:</label>
+<input type="text" class="input">
+</div> 
+<div class="inputfield">
+<label>Address:</label>
+<textarea class="textarea"></textarea>
+</div> 
+ <br>
+<div class="inputfield">
+<input type="submit" value="Register" class="btn">
+</div>
+</div>
+</div>
+</section>
+
+</section>
+
+
+
+
+<section class="footer1">
+<div class="footer1-text">
+<h4>About US<br>Please find us on our social media pages</h4>
+
+<div class="icons">
+
+
+
+<a href="https://www.instagram.com/ecozolik_" target="_blank"><img src="img/instagram.jpg" alt="instagram" width="40" height="40"></a>
+
+<a href="https://www.youtube.com/@EcolozikMRU" target="_blank"><img src="img/youtube.jpg" alt="youtube" width="40" height="40"></a>
+
+
+
+</div>
+</div>
+</section>
+
+
+</body>
+</html>
+
+
+
+

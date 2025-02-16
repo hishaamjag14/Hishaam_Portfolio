@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<title>Ecolozik</title>
+
+</head>
+
+<body>
+
+
+<section class="main">
+<div class="bg-vid">
+<video autoplay muted loop class="video">
+<source src="turtle.mp4"/>
+</video>
+</div>
+
+<header class="navbar">
+    <div class="left-section">
+        <div class="logo-container">
+            <img src="img/11.jpg" alt="img11">
+        </div>
+        <a href="home.html"><h1>ECOLOZIK</h1></a>
+    </div>
+    <div class="right-section">
+        <ul>
+            <li>
+                <a href="home.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="register.html">REGISTER</a>
+                <a href="drivers.html"class="active">OUR TEAM</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+
+
+
+<div class="body11-text">
+<h1> Meet<br>Our<br>Team</h1>
+<br>
+</div>
+</section>
+<br>
+
+<section class="driver">
+<div class="driver-container">
+<div class="driver-card">
+<div class="driverBx">
+<img src="img/kevin.jpg" alt="Kevin Henrage">
+</div>
+<div class="driver-content">
+<h2>Kevin Henrage<br><br>CEO<br><br></h2>
+</div>
+</div>
+<div class="driver-card">
+<div class="driverBx">
+<img src="img/shynish.jpg" alt="Shynish Sibartie">
+</div>
+<div class="driver-content">
+<h2>Shynish Sibartie<br><br>CTO<br><br></h2>
+</div>
+</div>
+<div class="driver-card">
+<div class="driverBx">
+<img src="img/hishaam.jpg" alt="Hishaam Jagessur">
+</div>
+<div class="driver-content">
+<h2>Hishaam Jagessur<br><br>CMO<br><br></h2>
+</div>
+</div>
+<div class="driver-card">
+<div class="driverBx">
+<img src="img/calee.jpg" alt="Teelesh Caleechurn">
+</div>
+<div class="driver-content">
+<h2>Teelesh Caleechurn<br><br>COO<br><br></h2>
+</div>
+</div>
+</div>
+</section>
+
+<section class="footer111">
+<div class="footer111-text">
+<h4>About US<br>Please find us on our social media pages</h4>
+
+<div class="icons">
+
+
+
+<a href="https://www.instagram.com/ecolozik_" target="_blank"><img src="img/instagram.jpg" alt="instagram" width="40" height="40"></a>
+
+<a href="https://www.youtube.com/@EcolozikMRU" target="_blank"><img src="img/youtube.jpg" alt="youtube" width="40" height="40"></a>
+
+
+</div>
+</div>
+</section>
+
+
+</body>
+</html>
+
+
+
+

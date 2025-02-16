@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<title>Ecolozik</title>
+
+</head>
+
+<body>
+
+
+<section class="main">
+<div class="bg-vid">
+<video autoplay muted loop class="video">
+<source src="turtle.mp4"/>
+</video>
+</div>
+
+<header class="navbar">
+    <div class="left-section">
+        <div class="logo-container">
+            <img src="img/11.jpg" alt="img11">
+        </div>
+        <a href="home.html"><h1>ECOLOZIK</h1></a>
+    </div>
+    <div class="right-section">
+        <ul>
+            <li>
+                <a href="home.html">HOME</a>
+                <a href="about.html"class="active">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="register.html">REGISTER</a>
+                <a href="drivers.html">OUR TEAM</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+
+
+
+<div class="body1-text">
+<h6><br><br><br><br><br><br><br>"Sustainable Packaging For A Healthy Future"</h6>
+<h9>Ecolozik provides sustainable packaging solutions using algae-based bioplastic. Our products are functional, aesthetically pleasing, and allow businesses to showcase their commitment to sustainability. We are passionate about making a positive impact on the environment and believe that sustainable packaging is a cruicial step towards creating a greener future<br><br> Our Mission is to provide sustainable packaging solutions using algae-based bioplastic, reduce the environmental impacts while meeting the demands of eco-concious consumers as well as offer functional and aesthetically pleasing packaging that does not compromise on quality or design</h9>
+
+</div>
+
+
+
+
+
+
+<section class="footer1">
+<div class="footer1-text">
+<h4>About US<br>Please find us on our social media pages</h4>
+
+<div class="icons">
+
+
+<a href="https://www.instagram.com/ecolozik_" target="_blank"><img src="img/instagram.jpg" alt="instagram" width="40" height="40"></a>
+
+<a href="https://www.youtube.com/@EcolozikMRU" target="_blank"><img src="img/youtube.jpg" alt="youtube" width="40" height="40"></a>
+
+
+</div>
+</div>
+</section>
+</section>
+
+</body>
+</html>
+
+
+
+

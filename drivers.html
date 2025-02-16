@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hishaam's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/74c46b4d09.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="bg-vid">
+        <video autoplay muted loop class="video">
+        <source src="turtle.mp4"/>
+        </video>
+    </div>
+
+
+<section id="header">
+
+        <div id="header">
+            <div class="container">
+              <nav class="nav-header">
+                  <a href="index.html">
+                  <img src="img/hishaamlogo.png" class="logo">
+                  </a>
+    
+                  <ul id="sidemenu">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="drivers.html" class="active">Services</a></li>
+                      <li><a href="register.html">Portfolio</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                  </ul>
+                  <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav>      
+
+              <div class="about-text">
+                <p>My<span> Services</span></p>
+                
+            </div>
+
+            </div>  
+
+           
+
+                <section class="driver">
+                <div class="driver-container">
+                <div class="driver-card">
+                <div class="driverBx">
+                <img src="img/web design.png" alt="Web Design">
+                </div>
+                <div class="driver-content">
+                <h2>Creating visually appealing and user-friendly websites through layout, color, and interactive elements</h2>
+                </div>
+                </div>
+                <div class="driver-card">
+                <div class="driverBx">
+                <img src="img/uiux.png" alt="UI/UX Design">
+                </div>
+                <div class="driver-content">
+                <h2>Enhancing user experience and interface through intuitive design, functionality, and aesthetics</h2>
+                </div>
+                </div>
+                <div class="driver-card">
+                <div class="driverBx">
+                <img src="img/appdesign.png" alt="App Design">
+                </div>
+                <div class="driver-content">
+                <h2>Designing intuitive and visually engaging interfaces for seamless mobile experiences</h2>
+                </div>
+                </div>
+                </div>
+                </section>
+            
+         </div>
+
+            
+
+
+            
+</section>  
+
+<section id="footer">
+        
+
+    <div class="copyright">
+      <p>Copyright© Made by Hishaam</p>
+  </div>
+</section>
+
+
+
+<!-- --------------------SCRIPT--------------------- -->
+     
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+function openmenu() {
+    document.getElementById("sidemenu").style.right = "0";
+    document.body.classList.add("hide-icons");
+}
+
+function closemenu() {
+    document.getElementById("sidemenu").style.right = "-200px";
+    document.body.classList.remove("hide-icons");
+}
+</script>
+
+
+</body>
+</html>
+
+
+
+
